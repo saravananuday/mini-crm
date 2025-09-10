@@ -18,8 +18,8 @@
   "leads": [
     {
       "id": "l_1",
-      "name": "Bob Buyer",
-      "email": "bob@buyer.com",
+      "name": "naveen",
+      "email": "nav@navee.com",
       "phone": "9999999999",
       "status": "New",
       "ownerId": "u_rep",
