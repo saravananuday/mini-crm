@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "u_mgr",
+      "name": "Manager User",
+      "email": "mgr@demo.com",
+      "passwordHash": "$2a$10$6JCIbxX9YrhqgwGIuyaK8u7qhysRWGCCuK8c6HQNNqtBRuOjYnbvG",
+      "role": "manager"
+    },
+    {
+      "id": "u_rep",
+      "name": "Rep User",
+      "email": "rep@demo.com",
+      "passwordHash": "$2a$10$QZtfRmdi0Sgl8md3XqXhhec4Kkilp4ehV3x4cEljxdm.rZtsWJ0yu",
+      "role": "rep"
+    }
+  ],
+  "leads": [
+    {
+      "id": "l_1",
+      "name": "Bob Buyer",
+      "email": "bob@buyer.com",
+      "phone": "9999999999",
+      "status": "New",
+      "ownerId": "u_rep",
+      "createdAt": "2025-09-09T14:24:21.225Z"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o_afaffe1e-6bc6-4f31-9aad-ca22e5a85bc7",
+      "title": "Saravanan udayakumar - Opportunity",
+      "value": 2,
+      "stage": "Proposal",
+      "ownerId": "u_mgr",
+      "leadId": "l_640912ce-6e53-47b8-a3f4-d1ec8e3ed9da",
+      "createdAt": "2025-09-09T14:48:49.907Z"
+    }
+  ]
+}
